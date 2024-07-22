@@ -1,0 +1,36 @@
+.aside{
+    width: 64px;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    position: fixed;
+}
+
+.menu-icon{
+    width: 24px;
+    height: 24px;
+}
+.menu-icon svg {
+    fill: white;
+    color: white;
+}
+.menu-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    height: 74px;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.menu-icon-container:hover{
+    background-color: rgb(50, 50, 50);
+}
+.menu-label{
+    padding-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
