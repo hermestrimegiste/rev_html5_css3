@@ -1,0 +1,143 @@
+.header{
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-logo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 170px;
+
+}
+.hamburger-container{
+    width:24px;
+    height: 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 8px;
+    transition: background-color 0.15s;
+}
+.hamburger-container:hover{
+    background-color: rgb(34, 34, 34);
+}
+.hamburger-container svg{
+    fill: red;
+}
+.ytb-logo{
+    width: 90px;
+    height: 20px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    margin-left: 72px;
+}
+.search-input{
+    width: 0;
+    max-width: 500px;
+    background-color: transparent;
+    flex: 1;
+    border:none;
+    box-shadow: 0px 0px 1px  rgba(255, 255, 255, 0.9);
+
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    border-right-color: rgb(48, 48, 48);
+    height: 30px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: white;
+}
+.search-input:focus-visible{
+    outline: 1px solid rgb(62, 166, 255);
+    border-right: rgb(62, 166, 255) 1px solid;
+
+}
+.search-icon{
+    background-color: rgb(34, 34, 34);
+    border:none;
+    box-shadow: 0px 0px 1px  rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+
+}
+.search-icon svg{
+    color: white;
+}
+
+.mic-icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 12px;
+    transition: background-color 0.15s;
+}
+.mic-icon:hover{
+    background-color: rgb(50, 50, 50);
+}
+.mic-icon-container{
+    width: 25px;
+    height: 25px;
+}
+.mic-icon-container svg{
+    fill: #ffffff;
+}
+
+.right-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 155px;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 72px;
+}
+.yt-profil-image{
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+.cam-icon-container, .bell-icon-container{
+    width: 25px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.cam-icon-container:hover, .bell-icon-container:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+.cam-icon-container svg, .bell-icon-container svg{
+    fill: #ffffff;
+}
+
+.notif-counter{
+    border:none;
+    background-color: #790000;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+    position: absolute;
+    top:0;
+    right: -3px;
+    font-size: 10px;
+
+}
