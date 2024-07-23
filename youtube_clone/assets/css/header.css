@@ -1,11 +1,13 @@
 .header{
     width: 100%;
     height: 52px;
+    background-color: rgb(15,15,15);
     display: flex;
     flex-direction: row;
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 .left-logo-container{
     display: flex;
@@ -55,7 +57,7 @@
     height: 30px;
     padding: 5px 15px;
     font-size: 16px;
-    color: white;
+    color: rgb(255,255,255);
 }
 .search-input:focus-visible{
     outline: 1px solid rgb(62, 166, 255);
@@ -76,7 +78,7 @@
 
 }
 .search-icon svg{
-    color: white;
+    color: rgb(255,255,255);
 }
 
 .mic-icon{
@@ -91,7 +93,7 @@
     transition: background-color 0.15s;
 }
 .mic-icon:hover{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(63,63,63);
 }
 .mic-icon-container{
     width: 25px;
@@ -125,7 +127,7 @@
 }
 
 .cam-icon-container:hover, .bell-icon-container:hover{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(63,63,63);
 }
 
 .cam-icon-container svg, .bell-icon-container svg{
@@ -134,13 +136,13 @@
 
 .notif-counter{
     border:none;
-    background-color: #790000;
-    color: white;
+    background-color: #CC0000;
+    color: rgb(255,255,255);
     border-radius: 10px;
     padding: 3px;
     position: absolute;
     top:0;
     right: -3px;
-    font-size: 10px;
+    font-size: 11px;
 
 }

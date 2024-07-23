@@ -2,8 +2,18 @@ body{
     margin: 0;
     font-family: Roboto, Arial;
     font-size: 14px;
-    background-color: black;
-    color: white;
+    background-color: rgb(15,15,15);
+    color: rgb(255,255,255);
     padding-top: 52px;
-    height: 3000px;
+}
+
+main{
+    padding-left: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+.main-container{
+
 }

@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/header.css">
   <link rel="stylesheet" href="assets/css/aside.css">
+  <link rel="stylesheet" href="assets/css/filter.css">
+  <link rel="stylesheet" href="assets/css/main.css">
   <title>YoutubeClone exercice</title>
 </head>
 <body>
@@ -47,7 +49,7 @@
 
 
 </div>
-<div>
+<main>
     <div class="aside">
         <a href="/">
             <div class="menu-icon-container">
@@ -75,11 +77,212 @@
         </a>
     </div>
     <div class="main-container">
-        <div class="filter"></div>
+        <div class="filters-container">
+            <div class="filter active">Tous</div>
+            <div class="filter">Films de super Heros</div>
+            <div class="filter">Musics</div>
+            <div class="filter">En direct</div>
+            <div class="filter">Series televisees</div>
+            <div class="filter">Jeux videos</div>
+            <div class="filter">Actualites</div>
+            <div class="filter">Thrillers</div>
+            <div class="filter">Mix</div>
+            <div class="filter">Histoire</div>
+        </div>
 
-        <div class="main"></div>
+        <div class="main">
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview-container">
+                <div class="img-preview-container">
+                    <a href="video_page.html">
+                        <img src="assets/images/img_1.png" alt="video image prev" class="img-preview">
+                    </a>
+                    <div class="preview-time"> 50:38:10</div>
+                </div>
+                <div class="preview-description-container">
+                    <img src="assets/images/img.png" alt="author" class="author-img">
+                    <div class="description-details">
+                        <a href="video_page.html"><p class="video-title">Dune Livre Premier : L' épopée spatiale sur Arrakis - Livre Audio Intégral - Frank Herbert</p></a>
+                        <a href="#"><p class="author-name">Le Marque Pages - Livres Audio</p></a>
+                        <p class="video-stats">115 k vues &#183; il y a 11 jours</p>
+                    </div>
+                    <div class="menu-action-container">
+                        <div class="menu-action">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
-</div>
+</main>
 </body>
 </html>
