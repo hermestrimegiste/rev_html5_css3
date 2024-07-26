@@ -1,0 +1,56 @@
+body{
+    font-family: "open sans";
+    font-size: 14px;
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 5px #444444;
+    width: 100px;
+    aspect-ratio: 1;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+    transition: box-shadow 0.15s;
+
+}
+.choice:hover{
+    box-shadow: 0 0 5px 2px lightskyblue;
+}
+.choice:active{
+    box-shadow: 0 0 5px 2px aquamarine;
+}
+.choice>img{
+    width: 70px;
+    height: auto;
+}
+.the_choice_img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.resultat-detail{
+    display: flex;
+    align-items: center;
+}
+.reset-btn-container, .choice-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+}
+.reset-data{
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+    background-color: #444444;
+    color: #b8b7b7;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
